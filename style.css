@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho{
+    background-color: #B00505;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin:0 16px;
+    font-size: 24px;
+}
+
+.barbearia-imagem{
+    width: 25%;
+}
+
+.barbearia{
+    background-image:linear-gradient(#B00505,#AE85C1,#083BBC);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.barbearia-div-conteudo{
+    width: 35%;
+}
+
+.barbearia-titulo{
+    padding: 24px 0;
+}
+
+.barbearia-texto-um{
+    padding: 24px 0;
+}
+
+.barbearia-texto-dois{
+    padding: 24px 0;
+}
+
+.diretor-imagem{
+    width: 160px ;
+}
+
+.diretor-icone{
+    width: 24px ;
+    padding: 3px;
+}
+
+.diretor-div{
+    text-align:center;
+}
+
+.diretor-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.diretor-todos{
+    display: grid;
+	text-align: center;
+}
+
+.rodape{
+    background-color: rgb(28, 32, 33);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 110px;
+    padding: 12px 0;
+}
